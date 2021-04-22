@@ -95,13 +95,16 @@ var symbol = [
 
 var num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 
-var upperCaseSelected = true;
-var symbolSelected = true;
+//temp var until linked to html
+var upperCaseSelected = "";
+var lowerCaseSelected = "";
+var symbolSelected = "";
+var numSelected = "";
+var lengthSelected = "";
 
-var lengthSelected = 10;
+var finalArray = [];
 
-var finalArray = function () {
-  var finalArray = [];
+var arrayFunction = function () {
   if (upperCaseSelected) {
     finalArray = finalArray.concat(upperCase);
   }
@@ -114,6 +117,7 @@ var finalArray = function () {
   if (numSelected) {
     finalArray = finalArray.concat(num);
   }
+  console.log(finalArray);
   return finalArray;
 };
 
@@ -125,16 +129,21 @@ function randomChar(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
-function generatePassword(length) {
-  for (i = 8; i <= length; i++) {
+function generatePassword() {
+  var length = prompt("select between 8-128");
+  upperCaseSelected = confirm("Do you want to use upper case?");
+  lowerCaseSelected = confirm("Do you want to use lower case?");
+  symbolSelected = confirm("Do you want to use symbols?");
+  numSelected = confirm("Do you want to use numbers?");
+  arrayFunction();
+  for (i = 0; i <= length; i++) {
     password = password.concat(randomChar(finalArray));
   }
   return password;
 }
-
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword(length);
+  var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
