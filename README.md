@@ -9,7 +9,7 @@ In this program I have created a password generator as an example of how to use 
 To use this paswword generator simply visit https://tjcourey.github.io/password-generator/
 
 Here is a screenshot of the page on loading in my local browser
-md ![working-generator](assets/screenshot.png)
+md ![working-generator](Assets/screenshot.png)
 
 ## Credits
 
