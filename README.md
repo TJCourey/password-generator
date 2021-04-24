@@ -2,52 +2,31 @@
 
 ## Description
 
-In this program I have created a password generator as an examp
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+In this program I have created a password generator as an example of how to use JavaScript to create a simple program within a browser. This was a very rewarding experince as I had ablsolutely no idea how to even start when the homework was given out, and by the end had a working password generator.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-`md ![alt text](assets/images/screenshot.png) `
+To use this paswword generator simply visit https://tjcourey.github.io/password-generator/
+
+Here is a screenshot of the page on loading in my local browser
+md ![working-generator](assets/screenshot.png)
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-If you followed tutorials, include links to those here as well.
+People who helped with code and sanity:
 
-## License
-
-## The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+-Andrew Tirpok
+-Zach Wahrer
 
 ## Features
 
-If your project has a lot of features, list them here.
+Available options:
+Upper case letters,
+Lower case letters,
+Symbols,
+Numbers,
+Between 8-128 characters
 
 ## How to Contribute
 
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+No contribution necessary but feedback is welcome and appreciated!
